@@ -73,7 +73,7 @@
             </div>{{-- Contact info end --}}
 
             <div class="md:col-span-7">
-                <form id="contactForm" action="http://apiserver.net/api/email" method="POST" class="space-y-4">
+                <form id="contactForm" action="https://apiserver.net/api/email" method="POST" class="space-y-4">
                     <div class="form-group">
                         <input type="text" name="name" id="client__name" placeholder="Name"
                                class="w-full p-5 text-sm outline-none h-13 focus:border-theme dark:focus:border-theme dark:placeholder:text-white/40"
@@ -85,7 +85,7 @@
                                required>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" name="contact__message" placeholder="Message" rows="5" class="w-full px-5 py-4 text-sm outline-none focus:border-theme dark:placeholder:text-white/40"></textarea>
+                        <textarea name="message" id="contact__message" placeholder="Message" rows="5" class="w-full px-5 py-4 text-sm outline-none focus:border-theme dark:placeholder:text-white/40"></textarea>
                     </div>
                     <div class=" form-group">
                         <button type="submit"
