@@ -1,8 +1,17 @@
 {
+    "name": "nsouto/nunosouto",
+    "type": "project",
+    "description": "Nuno Souto vCard/Resume",
+    "keywords": ["laravel", "jigsaw", "static site"],
+    "license": "MIT",
+
     "require": {
+        "php": "^8.3",
         "tightenco/jigsaw": "^1.7"
     },
     "require-dev": {
         "laravel/pint": "^1.17"
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

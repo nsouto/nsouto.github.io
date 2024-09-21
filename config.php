@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
+    'title' => 'Nuno Souto',
     'description' => 'Nuno Souto vCard/Resume',
     'collections' => [],
 ];
