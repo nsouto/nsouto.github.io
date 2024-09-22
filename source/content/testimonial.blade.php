@@ -21,10 +21,11 @@
         <div class="mt-12 testimonial-slider">
             <div class="swiper">
                 <div class="swiper-wrapper">
+
                     <div class="swiper-slide">
                         <div class="text-center slider-inner md:px-5">
                             <div class="image flex-center">
-                                <img src="assets/build/img/testimonial/author1.png" alt="">
+                                <img src="assets/build/img/testimonial/author1.webp" alt="">
                             </div>
                             <div class="mt-6 mb-3 text-center rating text-lightOrange text-sm">
                                 <i class="fas fa-star"></i>
@@ -46,7 +47,7 @@
                     <div class="swiper-slide">
                         <div class="text-center slider-inner md:px-5">
                             <div class="image flex-center">
-                                <img src="assets/build/img/testimonial/author2.png" alt="">
+                                <img src="assets/build/img/testimonial/author2.webp" alt="">
                             </div>
                             <div class="mt-6 mb-3 text-center rating text-lightOrange text-sm">
                                 <i class="fas fa-star"></i>
@@ -65,27 +66,27 @@
                         </div>
                     </div>{{--./testimonial-card--}}
 
-                    <div class="swiper-slide">
-                        <div class="text-center slider-inner md:px-5">
-                            <div class="image flex-center">
-                                <img src="assets/build/img/testimonial/author2.png" alt="">
-                            </div>
-                            <div class="mt-6 mb-3 text-center rating text-lightOrange text-sm">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="text-sm md:text-[15px] leading-loose content">
-                                <span class="font-semibold text-theme">Reddick</span> delivers excellence in every line of code. Dependable, innovative, and a key player in project success. Outstanding performance.
-                            </div>
-                            <div class="mt-5 text-center author">
-                                <h6 class="text-lg font-medium text-black dark:text-white">Alex Johnson</h6>
-                                <p class="text-sm">Developer</p>
-                            </div>
-                        </div>
-                    </div>{{--./testimonial-card--}}
+{{--                    <div class="swiper-slide">--}}
+{{--                        <div class="text-center slider-inner md:px-5">--}}
+{{--                            <div class="image flex-center">--}}
+{{--                                <img src="assets/build/img/testimonial/author2.webp" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="mt-6 mb-3 text-center rating text-lightOrange text-sm">--}}
+{{--                                <i class="fas fa-star"></i>--}}
+{{--                                <i class="fas fa-star"></i>--}}
+{{--                                <i class="fas fa-star"></i>--}}
+{{--                                <i class="fas fa-star"></i>--}}
+{{--                                <i class="fas fa-star"></i>--}}
+{{--                            </div>--}}
+{{--                            <div class="text-sm md:text-[15px] leading-loose content">--}}
+{{--                                <span class="font-semibold text-theme">Reddick</span> delivers excellence in every line of code. Dependable, innovative, and a key player in project success. Outstanding performance.--}}
+{{--                            </div>--}}
+{{--                            <div class="mt-5 text-center author">--}}
+{{--                                <h6 class="text-lg font-medium text-black dark:text-white">Alex Johnson</h6>--}}
+{{--                                <p class="text-sm">Developer</p>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}{{--./testimonial-card--}}
                 </div>
 
                 {{-- Slider Controls Start --}}
