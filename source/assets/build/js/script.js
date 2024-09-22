@@ -4,20 +4,20 @@
     /* ============================================================ */
     /* PRELOADER START
     /* ============================================================ */
-    setTimeout(function() {
-        var e = !!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
-                navigator.userAgent
-            ),
-            s = document.getElementById('preloader');
-            e ? s && s.parentNode && s.parentNode.removeChild(s) :
-            (setTimeout(function() {
-                    s.classList.add('preloaded');
-                }, 1000),
-                setTimeout(function() {
-                    s && s.parentNode && s.parentNode.removeChild(s);
-                }, 
-            2000));
-    }, 1000);
+    // setTimeout(function() {
+    //     var e = !!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
+    //             navigator.userAgent
+    //         ),
+    //         s = document.getElementById('preloader');
+    //         e ? s && s.parentNode && s.parentNode.removeChild(s) :
+    //         (setTimeout(function() {
+    //                 s.classList.add('preloaded');
+    //             }, 1000),
+    //             setTimeout(function() {
+    //                 s && s.parentNode && s.parentNode.removeChild(s);
+    //             },
+    //         2000));
+    // }, 1000);
     /* Preloader End */
 
     /* ============================================================ */
