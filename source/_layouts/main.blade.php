@@ -51,8 +51,33 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
         {{-- Js Library End --}}
 
-
         <script>
+            // Function to get URL parameter
+            function getUrlParameter(name) {
+                let urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(name);
+            }
+
+            // Pre-populate form fields if URL parameters exist
+            document.addEventListener("DOMContentLoaded", function() {
+                let form_name = getUrlParameter('form_name');
+                let form_email = getUrlParameter('form_email');
+                let form_message = getUrlParameter('form_message');
+
+                // Pre-fill the form fields if the parameters exist in the URL
+                if (form_name) {
+                    document.getElementById('client__name').value = form_name;
+                }
+
+                if (form_email) {
+                    document.getElementById('client_email').value = form_email;
+                }
+
+                if (form_message) {
+                    document.getElementById('contact__message').value = form_message;
+                }
+            });
+
             toastr.options = {
                 "closeButton": false,
                 "debug": false,
@@ -69,12 +94,6 @@
                 "hideEasing": "linear",
                 "showMethod": "fadeIn",
                 "hideMethod": "fadeOut"
-            }
-
-            // Function to get URL parameter
-            function getUrlParameter(name) {
-                let urlParams = new URLSearchParams(window.location.search);
-                return urlParams.get(name);
             }
 
             // Check the 'result' parameter for 'sent' or 'fail'
