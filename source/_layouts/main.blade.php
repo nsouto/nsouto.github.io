@@ -98,11 +98,14 @@
 
             // Check the 'result' parameter for 'sent' or 'fail'
             let result = getUrlParameter('result');
+            let fragment = window.location.hash;
 
             if (result === 'sent') {
                 toastr["success"]("Your message was sent successfully!", "Success");
+                window.history.replaceState(null, null, window.location.pathname + fragment);
             } else if (result === 'failed') {
                 toastr["error"]("Failed to send your message. Please try again.", "Error");
+                window.history.replaceState(null, null, window.location.pathname + fragment);
             }
         </script>
     </body>
