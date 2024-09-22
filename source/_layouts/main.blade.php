@@ -48,6 +48,43 @@
         <script src="assets/build/js/circle-progress.min.js"></script>
         <script src="assets/build/js/script.js"></script>
         <script src="assets/build/js/theme-mode.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
         {{-- Js Library End --}}
+
+
+        <script>
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-top-full-width",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "5000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+
+            // Function to get URL parameter
+            function getUrlParameter(name) {
+                let urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(name);
+            }
+
+            // Check the 'result' parameter for 'sent' or 'fail'
+            let result = getUrlParameter('result');
+
+            if (result === 'sent') {
+                toastr["success"]("Your message was sent successfully!", "Success");
+            } else if (result === 'fail') {
+                toastr["error"]("Failed to send your message. Please try again.", "Error");
+            }
+        </script>
     </body>
 </html>

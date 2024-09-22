@@ -73,10 +73,7 @@
 
             <div class="md:col-span-7">
                 <form id="contactForm" action="https://apiserver.net/api/email" method="POST" class="space-y-4">
-{{--                    <input type="hidden" name="redirect_to_success" value="https://nunosouto.com/message_sent.html">--}}
-{{--                    <input type="hidden" name="redirect_to_fail" value="https://nunosouto.com/message_failed.html">--}}
-{{--                    <input type="hidden" name="send_to" value="nsouto@lostlink.net">--}}
-                    <input type="hidden" name="result_parameter" value="success">
+                    <input type="hidden" name="return_parameter" value="result">
                     <input type="hidden" name="return_data" value="false">
                     <div class="form-group">
                         <input type="text" name="form_name" id="client__name" placeholder="Name"
