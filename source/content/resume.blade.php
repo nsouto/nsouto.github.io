@@ -11,8 +11,7 @@
                 Work <span class="font-semibold text-theme">Experience</span>
             </h2>
             <p class="max-w-xl mt-4 md:mt-6 subtitle">
-                I design products that are more than pretty. I make them shippable and usable, tempor
-                non mollit dolor et do aute
+                My focus is on creating solutions that are reliable, usable, and ready to grow with your business.
             </p>
         </div>{{--./section-title--}}
 
@@ -181,8 +180,7 @@
                 My <span class="font-semibold text-theme">Education</span>
             </h2>
             <p class="max-w-xl mt-4 md:mt-6 subtitle">
-                I design products that are more than pretty. I make them shippable and usable, tempor
-                non mollit dolor et do aute
+                In addition to my professional experience, I have a strong background in Computer Science and continuously seek to expand my knowledge and improve my skills.
             </p>
         </div>
 

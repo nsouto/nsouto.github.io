@@ -13,8 +13,7 @@
                 Contact <span class="font-semibold text-theme">Me.</span>
             </h2>
             <p class="mt-3.5 md:mt-5 subtitle max-w-sectionTitle">
-                I design products that are more than pretty. I make them shippable and usable, ttempor
-                non mollit dolor et do aute
+                I’m always open to new opportunities and collaborations. Whether you need scalable systems, web development, or technical consulting, feel free to reach out!
             </p>
         </div>{{--./section-title--}}
 
