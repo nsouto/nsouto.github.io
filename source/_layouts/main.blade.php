@@ -101,7 +101,7 @@
 
             if (result === 'sent') {
                 toastr["success"]("Your message was sent successfully!", "Success");
-            } else if (result === 'fail') {
+            } else if (result === 'failed') {
                 toastr["error"]("Failed to send your message. Please try again.", "Error");
             }
         </script>
