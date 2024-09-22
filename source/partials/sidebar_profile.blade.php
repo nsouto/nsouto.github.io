@@ -19,10 +19,10 @@
             <div class="leading-none cd-headline clip is-full-width">
                 <h6 class="text-sm cd-words-wrapper designation text-theme after:!bg-theme *:font-normal">
                     <b class="is-visible">Consultant</b>
-                    <b>Web Developer</b>
+                    <b>Software Engineer</b>
+                    <b>Web Development</b>
                     <b>DevOps</b>
                     <b>Systems Architecture</b>
-                    <b>Problem Solver</b>
                     <b>Capoeirista</b>
                 </h6>
             </div>
