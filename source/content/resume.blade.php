@@ -31,7 +31,7 @@
                             CTO / Tech Lead
                         </h4>
                         <p>
-                            As Tech Lead/CTO, I led a team in launching a DNS Management
+                            As CTO, Tech Lead and DevOps, I led a team in launching a DNS Management
                             and Monetization platform, along with a Domain Marketplace. The project required handling high traffic and building
                             efficient systems capable of managing millions of domains. Working within the constraints of a startup budget, I
                             implemented creative solutions on AWS to ensure scalability and performance. This allowed the system to quickly
@@ -53,8 +53,7 @@
                             CTO / Tech Lead
                         </h4>
                         <p>
-                            In the absence of an official CTO, I assumed the role
-                            at YTZ International, leading the development of scalable systems for affiliate marketing. In 2019, I developed a
+                            As acting CTO at YTZ International, leading the development of scalable systems for affiliate marketing. In 2019, I developed a
                             real-time stats system that enabled the company to respond instantly to the performance of marketing landing pages,
                             optimizing results in real-time. This innovative solution was presented at the AWS Summit in 2023. I also focused on
                             cost-efficient strategies and ensuring the infrastructure could handle high traffic while maintaining top

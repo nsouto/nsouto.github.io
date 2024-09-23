@@ -13,8 +13,7 @@
                 What <span class="font-semibold text-theme">People Say</span>
             </h2>
             <p class="max-w-xl mt-4 md:mt-6 subtitle">
-                I design products that are more than pretty. I make them shippable and usable, tempor
-                non mollit dolor et do aute
+                Here’s what some clients and colleagues have to say about my work and the impact I’ve had on their projects.
             </p>
         </div>{{--./section-title--}}
 
@@ -22,71 +21,13 @@
             <div class="swiper">
                 <div class="swiper-wrapper">
 
-                    <div class="swiper-slide">
-                        <div class="text-center slider-inner md:px-5">
-                            <div class="image flex-center">
-                                <img src="assets/build/img/testimonial/author1.webp" alt="">
-                            </div>
-                            <div class="mt-6 mb-3 text-center rating text-lightOrange text-sm">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="text-sm md:text-[15px] leading-loose content">
-                                Working with <span class="font-semibold text-theme">Reddick</span> is a game-changer. Their coding expertise and commitment to quality make every project a success.
-                            </div>
-                            <div class="mt-5 text-center author">
-                                <h6 class="text-lg font-medium text-black dark:text-white">Alex Johnson</h6>
-                                <p class="text-sm">Developer</p>
-                            </div>
-                        </div>
-                    </div>{{--./testimonial-card--}}
+                    @include('content.testimonials.felipe_flor')
 
-                    <div class="swiper-slide">
-                        <div class="text-center slider-inner md:px-5">
-                            <div class="image flex-center">
-                                <img src="assets/build/img/testimonial/author2.webp" alt="">
-                            </div>
-                            <div class="mt-6 mb-3 text-center rating text-lightOrange text-sm">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="text-sm md:text-[15px] leading-loose content">
-                                <span class="font-semibold text-theme">Reddick</span> exceeds expectations with top-tier coding skills. Reliable, collaborative, and a true asset to any project. Highly recommended
-                            </div>
-                            <div class="mt-5 text-center author">
-                                <h6 class="text-lg font-medium text-black dark:text-white">Mily Martin</h6>
-                                <p class="text-sm">CEO-itTheme</p>
-                            </div>
-                        </div>
-                    </div>{{--./testimonial-card--}}
+{{--                    @include('content.testimonials.devin_holmberg')--}}
+{{--                    @include('content.testimonials.john_miller')--}}
+{{--                    @include('content.testimonials.margarette_thelusma')--}}
+{{--                    @include('content.testimonials.leonardo_pliskievski')--}}
 
-{{--                    <div class="swiper-slide">--}}
-{{--                        <div class="text-center slider-inner md:px-5">--}}
-{{--                            <div class="image flex-center">--}}
-{{--                                <img src="assets/build/img/testimonial/author2.webp" alt="">--}}
-{{--                            </div>--}}
-{{--                            <div class="mt-6 mb-3 text-center rating text-lightOrange text-sm">--}}
-{{--                                <i class="fas fa-star"></i>--}}
-{{--                                <i class="fas fa-star"></i>--}}
-{{--                                <i class="fas fa-star"></i>--}}
-{{--                                <i class="fas fa-star"></i>--}}
-{{--                                <i class="fas fa-star"></i>--}}
-{{--                            </div>--}}
-{{--                            <div class="text-sm md:text-[15px] leading-loose content">--}}
-{{--                                <span class="font-semibold text-theme">Reddick</span> delivers excellence in every line of code. Dependable, innovative, and a key player in project success. Outstanding performance.--}}
-{{--                            </div>--}}
-{{--                            <div class="mt-5 text-center author">--}}
-{{--                                <h6 class="text-lg font-medium text-black dark:text-white">Alex Johnson</h6>--}}
-{{--                                <p class="text-sm">Developer</p>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}{{--./testimonial-card--}}
                 </div>
 
                 {{-- Slider Controls Start --}}

@@ -13,15 +13,11 @@
                 About <span class="font-semibold text-theme">Me</span>
             </h2>
             <p class="max-w-2xl mt-4 md:mt-6 subtitle">
-                My name is <span class="text-black dark:text-white">Nuno Souto</span> I’ve been passionate about technology from a young age, starting with the Atari 2600. Over time, I developed skills
-                in Basic, Pascal, Perl, and HTML, eventually transitioning to PHP, which I’ve used extensively alongside other
-                technologies as needed. Recently, I’ve focused on Laravel development and it's ecosystem..
+                My name is <span class="text-black dark:text-white">Nuno Souto</span>, and I’ve been passionate about technology from a young age, starting with the Atari 2600. Over time, I developed skills in Basic, Pascal, Perl, and HTML, eventually transitioning to PHP, which I’ve used extensively alongside other technologies as needed. Recently, I’ve focused on Laravel development and its ecosystem.
                 </br /></br />
-
-                My experience also spans network setup and installation for company offices and buildings, DevOps, DVD production, event coordination, as well as VoIP systems. I
-                excel at diagnosing and resolving technical issues, learning new skills quickly, and adapting to new software. I
-                have a strong aptitude for troubleshooting and resolving technical issues as they arise, and I’m highly capable of
-                tackling challenges efficiently, leveraging a broad range of software, hardware, and systems expertise.
+                In addition to my technical expertise, I have extensive experience in leadership roles, guiding teams to build scalable, efficient systems that align with organizational goals. My strategic leadership helps organizations meet business objectives by ensuring that technology solutions not only solve immediate challenges but are also positioned for long-term growth. My background spans network setup for company offices, DevOps, DVD production, event coordination, and VoIP systems, allowing me to integrate technology into diverse operational needs. I excel at diagnosing and resolving technical issues, and I’m adept at learning new skills quickly and adapting to evolving software environments.
+                </br /></br />
+                My ability to lead both strategically and technically enables me to drive innovation and efficiency, ensuring that projects are completed successfully while meeting business goals.
             </p>
         </div>
         <div class="mt-6 section-content">

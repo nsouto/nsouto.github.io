@@ -13,7 +13,7 @@
                 Contact <span class="font-semibold text-theme">Me.</span>
             </h2>
             <p class="mt-3.5 md:mt-5 subtitle max-w-sectionTitle">
-                I’m always open to new opportunities and collaborations. Whether you need scalable systems, web development, or technical consulting, feel free to reach out!
+                I’m always open to new opportunities and collaborations. Whether you need scalable systems, web development, technical consulting or just want to chat, feel free to reach out!
             </p>
         </div>{{--./section-title--}}
 

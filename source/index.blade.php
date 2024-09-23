@@ -27,7 +27,7 @@
 
 {{--                @include('content.blog')--}}
 
-{{--                @include('content.testimonial')--}}
+                @include('content.testimonial')
 
                 @include('content.contact')
 
