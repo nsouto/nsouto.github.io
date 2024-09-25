@@ -22,6 +22,11 @@
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script defer
+                src="https://unpkg.com/@tinybirdco/flock.js"
+                data-host="https://api.tinybird.co"
+                data-token="p.eyJ1IjogIjZmYTIwYTU5LWI3MmUtNGI4OC04NGMyLTFjZDQ4MjAwOWUzMCIsICJpZCI6ICI5YTIzNDdmMS03OGJkLTRjYzQtYmI0Ni1iNGU5ZGFkYTZkZjAiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.mLv84y-xSAZzagjyoqAJv6FxPfMWD2lrVsF6ysRd3KE"
+        />
     </head>
 
     <body class="relative custom_cursor">
@@ -50,12 +55,6 @@
         <script src="assets/build/js/theme-mode.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
         {{-- Js Library End --}}
-
-        <script defer
-                src="https://unpkg.com/@tinybirdco/flock.js"
-                data-host="https://api.tinybird.co"
-                data-token="p.eyJ1IjogIjZmYTIwYTU5LWI3MmUtNGI4OC04NGMyLTFjZDQ4MjAwOWUzMCIsICJpZCI6ICI5YTIzNDdmMS03OGJkLTRjYzQtYmI0Ni1iNGU5ZGFkYTZkZjAiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.mLv84y-xSAZzagjyoqAJv6FxPfMWD2lrVsF6ysRd3KE"
-        />
 
         <script>
             // Function to get URL parameter
