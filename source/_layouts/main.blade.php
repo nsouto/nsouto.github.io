@@ -26,7 +26,7 @@
 
     <body class="relative custom_cursor">
 
-        @include('_layouts.partials.custom_cursor')
+{{--        @include('_layouts.partials.custom_cursor')--}}
 {{--        @include('_layouts.partials.preloader')--}}
 
         {{-- App Start --}}
