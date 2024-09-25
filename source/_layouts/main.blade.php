@@ -22,11 +22,6 @@
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
-        <script defer
-                src="https://unpkg.com/@tinybirdco/flock.js"
-                data-host="https://api.tinybird.co"
-                data-token="p.eyJ1IjogIjZmYTIwYTU5LWI3MmUtNGI4OC04NGMyLTFjZDQ4MjAwOWUzMCIsICJpZCI6ICI5YTIzNDdmMS03OGJkLTRjYzQtYmI0Ni1iNGU5ZGFkYTZkZjAiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.mLv84y-xSAZzagjyoqAJv6FxPfMWD2lrVsF6ysRd3KE"
-        />
     </head>
 
     <body class="relative custom_cursor">
@@ -113,5 +108,10 @@
                 window.history.replaceState(null, null, window.location.pathname + fragment);
             }
         </script>
+        <script defer
+                src="https://unpkg.com/@tinybirdco/flock.js"
+                data-host="https://api.tinybird.co"
+                data-token="p.eyJ1IjogIjZmYTIwYTU5LWI3MmUtNGI4OC04NGMyLTFjZDQ4MjAwOWUzMCIsICJpZCI6ICI5YTIzNDdmMS03OGJkLTRjYzQtYmI0Ni1iNGU5ZGFkYTZkZjAiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.mLv84y-xSAZzagjyoqAJv6FxPfMWD2lrVsF6ysRd3KE"
+        />
     </body>
 </html>
