@@ -21,7 +21,6 @@
         <link rel="stylesheet" href="assets/build/css/style.min.css">
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-        <script>!function () {var reb2b = window.reb2b = window.reb2b || [];if (reb2b.invoked) return;reb2b.invoked = true;reb2b.methods = ["identify", "collect"];reb2b.factory = function (method) {return function () {var args = Array.prototype.slice.call(arguments);args.unshift(method);reb2b.push(args);return reb2b;};};for (var i = 0; i < reb2b.methods.length; i++) {var key = reb2b.methods[i];reb2b[key] = reb2b.factory(key);}reb2b.load = function (key) {var script = document.createElement("script");script.type = "text/javascript";script.async = true;script.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/" + key + "/reb2b.js.gz";var first = document.getElementsByTagName("script")[0];first.parentNode.insertBefore(script, first);};reb2b.SNIPPET_VERSION = "1.0.1";reb2b.load("E63P0H7VYVOW");}();</script>
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
 
@@ -114,5 +113,6 @@
                 data-host="https://api.tinybird.co"
                 data-token="p.eyJ1IjogIjZmYTIwYTU5LWI3MmUtNGI4OC04NGMyLTFjZDQ4MjAwOWUzMCIsICJpZCI6ICI5YTIzNDdmMS03OGJkLTRjYzQtYmI0Ni1iNGU5ZGFkYTZkZjAiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.mLv84y-xSAZzagjyoqAJv6FxPfMWD2lrVsF6ysRd3KE"
         />
+        <script>!function () {var reb2b = window.reb2b = window.reb2b || [];if (reb2b.invoked) return;reb2b.invoked = true;reb2b.methods = ["identify", "collect"];reb2b.factory = function (method) {return function () {var args = Array.prototype.slice.call(arguments);args.unshift(method);reb2b.push(args);return reb2b;};};for (var i = 0; i < reb2b.methods.length; i++) {var key = reb2b.methods[i];reb2b[key] = reb2b.factory(key);}reb2b.load = function (key) {var script = document.createElement("script");script.type = "text/javascript";script.async = true;script.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/" + key + "/reb2b.js.gz";var first = document.getElementsByTagName("script")[0];first.parentNode.insertBefore(script, first);};reb2b.SNIPPET_VERSION = "1.0.1";reb2b.load("E63P0H7VYVOW");}();</script>
     </body>
 </html>
